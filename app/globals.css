@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1.25rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-offwhite text-charcoal antialiased;
+}
+
+.glass {
+  background: rgba(255,255,255,0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.dark .glass {
+  background: rgba(16,16,20,0.55);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
+}
+
+.phulkari-overlay {
+  background-image: linear-gradient(180deg, rgba(139,28,28,0.08), rgba(31,59,122,0.08)), url('/images/patterns/phulkari.svg');
+  background-repeat: repeat;
+  background-size: 600px, 400px;
+  opacity: 0.25;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary;
+}
+
+

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PSA OSU//Events//EN
+BEGIN:VEVENT
+UID:diwali-night-2025@psa-osu
+DTSTAMP:20250809T063628Z
+DTSTART:NaNNaNNaNTNaNNaNNaNZ
+DTEND:NaNNaNNaNTNaNNaNNaNZ
+SUMMARY:Diwali Night
+DESCRIPTION:Celebrate Diwali with music, performances, and community.
+LOCATION:Ohio Union – Performance Hall
+END:VEVENT
+END:VCALENDAR

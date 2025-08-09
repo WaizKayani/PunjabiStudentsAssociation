@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2B705"/>
+      <stop offset="1" stop-color="#1F3B7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="225" rx="20" fill="url(#g)"/>
+  <text x="200" y="110" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#1C1C1C">Involvement Fair</text>
+  <text x="200" y="140" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#1C1C1C">The Oval — Aug 24</text>
+</svg>
+
+

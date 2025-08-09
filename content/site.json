@@ -1,0 +1,33 @@
+{
+  "name": "Punjabi Students Association",
+  "campus": "The Ohio State University – Columbus Ohio",
+  "status": "Active — New/Re-Established",
+  "purpose": "We hope to bring together Indian and Pakistani Punjabis on campus and to bridge the gap that was created in Punjab by the partition. We hope to bring awareness to the Punjabi culture and collaborate with other organizations.",
+  "logo": "/images/logo.png",
+  "leaders": [
+    { "role": "President", "name": "Waiz Kayani", "photo": "/images/leaders/waiz.jpg", "blurb": "Leads PSA with vision and community." },
+    { "role": "Vice President", "name": "Aarushi Nischal", "photo": "/images/leaders/aarushi.jpg", "blurb": "Programs and partnerships." },
+    { "role": "Treasurer", "name": "Dhruv Bhumbla", "photo": "/images/leaders/dhruv.jpg", "blurb": "Finance and operations." },
+    { "role": "Advisor", "name": "Harpreet Singh", "photo": "/images/leaders/harpreet.jpg", "blurb": "Guidance and mentorship." }
+  ],
+  "contact": {
+    "email": "punjabisaosu@gmail.com",
+    "instagram": "https://www.instagram.com/punjabi.osu",
+    "groupme": "https://groupme.com/join_group/103449112/AmoCBK2s?fbclid=PAZXh0bgNhZW0CMTEAAacl35NH7Jjs2pO3D4vpP9Eu6cuTl7OnNOTaalM4JalelqKJdTFvDINQRglGWg_aem_arj3V5nw-TBnsWC-aGzEfg"
+  },
+  "meeting": {
+    "day": "Wednesday",
+    "venue": "Ohio Union",
+    "address": "1739 N. High Street, Columbus, OH 43210",
+    "mapEmbedQuery": "Ohio Union, 1739 N High St, Columbus, OH 43210"
+  },
+  "founded": "Re-established 2024–2025 (make editable)",
+  "dues": "No",
+  "membership": "Open; email or DM to join",
+  "announcement": {
+    "enabled": true,
+    "message": "Welcome! PSA at OSU is re-established — join us and follow on Instagram!"
+  }
+}
+
+

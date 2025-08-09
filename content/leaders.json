@@ -1,0 +1,8 @@
+[
+  { "role": "President", "name": "Waiz Kayani", "photo": "/images/leaders/waiz.svg", "blurb": "Leads PSA with vision and community." },
+  { "role": "Vice President", "name": "Aarushi Nischal", "photo": "/images/leaders/aarushi.svg", "blurb": "Programs and partnerships." },
+  { "role": "Treasurer", "name": "Dhruv Bhumbla", "photo": "/images/leaders/dhruv.svg", "blurb": "Finance and operations." },
+  { "role": "Advisor", "name": "Harpreet Singh", "photo": "/images/leaders/harpreet.svg", "blurb": "Guidance and mentorship." }
+]
+
+

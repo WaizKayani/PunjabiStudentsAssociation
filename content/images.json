@@ -1,0 +1,10 @@
+[
+  { "src": "/images/gallery/1.svg", "alt": "PSA meetup", "aspect": "4/3" },
+  { "src": "/images/gallery/2.svg", "alt": "Cultural pattern", "aspect": "1/1" },
+  { "src": "/images/gallery/3.svg", "alt": "Bhangra", "aspect": "3/4" },
+  { "src": "/images/gallery/4.svg", "alt": "Food and friends", "aspect": "16/9" },
+  { "src": "/images/gallery/5.svg", "alt": "Henna", "aspect": "4/3" },
+  { "src": "/images/gallery/6.svg", "alt": "Stage lights", "aspect": "3/2" }
+]
+
+

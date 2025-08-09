@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "involvement-fair-2025",
+    "title": "Involvement Fair",
+    "date": "2025-08-24",
+    "time": "4:00 PM – 7:00 PM",
+    "location": "The Oval",
+    "address": "The Oval, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/involvement-fair.svg",
+    "description": "Meet PSA at the Involvement Fair — learn about our events, sign up, and say hi!",
+    "tags": ["fair", "outreach"]
+  },
+  {
+    "slug": "chaa-and-gupshup-2025",
+    "title": "Chaa & Gupshup",
+    "date": "2025-09-10",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Torres Think Tank — North District",
+    "address": "Torres Think Tank, North District, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/chaa-gupshup.svg",
+    "description": "First meetup of the semester — sip chai, hang out, and connect with the PSA community.",
+    "tags": ["social", "meetup"]
+  }
+]
+
+
