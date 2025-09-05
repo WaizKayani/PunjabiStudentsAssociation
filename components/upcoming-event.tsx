@@ -9,7 +9,23 @@ import type { EventItem } from "@/lib/types";
 import { generateICSForEvent } from "@/lib/ics";
 
 export function UpcomingEvent({ event }: { event: EventItem }) {
-  if (!event) return null;
+  if (!event) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.5 }}
+        className="text-center py-12 rounded-2xl glass"
+      >
+        <h2 className="text-2xl font-semibold text-charcoal/70">No Upcoming Events</h2>
+        <p className="mt-2 text-charcoal/50">Check back soon for new events!</p>
+        <Button asChild variant="outline" className="mt-4 rounded-2xl">
+          <Link href="/events">View All Events</Link>
+        </Button>
+      </motion.div>
+    );
+  }
   const icsHref = generateICSForEvent(event);
   const mapQuery = event.address || event.location || "Ohio Union, 1739 N High St, Columbus, OH 43210";
   const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed`;

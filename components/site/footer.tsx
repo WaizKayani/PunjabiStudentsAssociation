@@ -23,7 +23,7 @@ export function Footer() {
           <div className="font-semibold">Links</div>
           <div className="mt-2 space-y-1">
             <Link href="/events" className="underline">Events</Link>
-            <div className="text-xs text-charcoal/60 dark:text-offwhite/60">Unofficial student organization site — Ohio State branding rules apply.</div>
+            <div className="text-xs text-charcoal/60 dark:text-offwhite/60">Unofficial student organization site</div>
           </div>
         </div>
       </div>

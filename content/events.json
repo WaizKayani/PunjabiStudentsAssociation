@@ -9,7 +9,7 @@
     "rsvpUrl": "",
     "image": "/images/events/involvement-fair.svg",
     "description": "Meet PSA at the Involvement Fair — learn about our events, sign up, and say hi!",
-    "tags": ["fair", "outreach"]
+    "tags": ["fair"]
   },
   {
     "slug": "chaa-and-gupshup-2025",
@@ -17,12 +17,70 @@
     "date": "2025-09-10",
     "time": "6:00 PM – 8:00 PM",
     "location": "Torres Think Tank — North District",
-    "address": "Torres Think Tank, North District, Columbus, OH 43210",
+    "address": "187 W Lane Ave, Columbus, OH 43210",
     "rsvpUrl": "",
     "image": "/images/events/chaa-gupshup.svg",
     "description": "First meetup of the semester — sip chai, hang out, and connect with the PSA community.",
-    "tags": ["social", "meetup"]
+    "tags": []
+  },
+  {
+    "slug": "punjabi-calligraphy-2025",
+    "title": "Punjabi Calligraphy",
+    "date": "2025-10-01",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "North District - Houston Stripe Art Studio",
+    "address": "97 W Lane Ave, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/punjabi-calligraphy.svg",
+    "description": "Learn the beautiful art of Punjabi calligraphy! We'll provide pens and paper for this cultural workshop.",
+    "tags": []
+  },
+  {
+    "slug": "spooky-samosa-night-2025",
+    "title": "Spooky Samosa Night",
+    "date": "2025-10-15",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Torres Think Tank — North District",
+    "address": "187 W Lane Ave, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/spooky-samosa.svg",
+    "description": "Halloween meets Punjabi culture! Join us for samosas, plates, pumpkins, and utensils to carve pumpkins in a fun, spooky atmosphere.",
+    "tags": []
+  },
+  {
+    "slug": "diwali-celebration-2025",
+    "title": "Diwali Celebration",
+    "date": "2025-10-27",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Torres Think Tank — North District",
+    "address": "187 W Lane Ave, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/diwali.svg",
+    "description": "Celebrate the Festival of Lights with us! Enjoy delicious veg biryani and chicken biryani, served with bowls, napkins, and spoons.",
+    "tags": []
+  },
+  {
+    "slug": "game-night-2025",
+    "title": "Game Night",
+    "date": "2025-11-12",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Torres Think Tank — North District",
+    "address": "187 W Lane Ave, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/game-night.svg",
+    "description": "Fun game night with sprite, syrups, cups, cherries, and straws! Come play games and enjoy refreshing drinks with the PSA community.",
+    "tags": []
+  },
+  {
+    "slug": "punjabi-musical-night-2025",
+    "title": "Punjabi Musical Night",
+    "date": "2025-11-26",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Torres Think Tank — North District",
+    "address": "187 W Lane Ave, Columbus, OH 43210",
+    "rsvpUrl": "",
+    "image": "/images/events/musical-night.svg",
+    "description": "End the semester with a musical celebration! Experience the rich sounds and rhythms of Punjabi music in an evening of cultural entertainment.",
+    "tags": []
   }
 ]
-
-

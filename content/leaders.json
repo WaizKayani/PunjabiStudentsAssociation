@@ -1,8 +1,10 @@
 [
-  { "role": "President", "name": "Waiz Kayani", "photo": "/images/leaders/waiz.svg", "blurb": "Leads PSA with vision and community." },
-  { "role": "Vice President", "name": "Aarushi Nischal", "photo": "/images/leaders/aarushi.svg", "blurb": "Programs and partnerships." },
-  { "role": "Treasurer", "name": "Dhruv Bhumbla", "photo": "/images/leaders/dhruv.svg", "blurb": "Finance and operations." },
-  { "role": "Advisor", "name": "Harpreet Singh", "photo": "/images/leaders/harpreet.svg", "blurb": "Guidance and mentorship." }
+  { "role": "President", "name": "Waiz Kayani", "photo": "/images/leaders/waiz.jpg", "blurb": "" },
+  { "role": "Vice President", "name": "Aarushi Nischal", "photo": "/images/leaders/aarushi.svg", "blurb": "" },
+  { "role": "Treasurer", "name": "Dhruv Bhumbla", "photo": "/images/leaders/dhruv.svg", "blurb": "" },
+  { "role": "Secretary", "name": "Vaanika Jindal", "photo": "/images/leaders/vaanika.svg", "blurb": "" },
+  { "role": "Events Chair", "name": "Gurleen Mavi", "photo": "/images/leaders/gurleen.svg", "blurb": "" },
+  { "role": "PR Chair", "name": "AB Barsa", "photo": "/images/leaders/ab.jpg", "blurb": "" },
+  { "role": "Social Media Chair", "name": "Manpreet Kaur", "photo": "/images/leaders/manpreet.svg", "blurb": "" },
+  { "role": "Advisor", "name": "Harpreet Singh", "photo": "/images/leaders/harpreet.jpg", "blurb": "" }
 ]
-
-

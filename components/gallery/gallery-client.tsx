@@ -13,7 +13,7 @@ export function GalleryClient({ images }: { images: GalleryImage[] }) {
         {images.map(img => (
           <button key={img.src} className="mb-4 block w-full overflow-hidden rounded-xl focus:outline-none" onClick={() => setActive(img.src)}>
             <div className="relative w-full" style={{ aspectRatio: img.aspect || "4/3" }}>
-              <Image src={img.src} alt={img.alt || ""} fill className="object-cover" />
+              <Image src={img.src} alt={img.alt || ""} fill className="object-cover object-[center_30%]" />
             </div>
           </button>
         ))}

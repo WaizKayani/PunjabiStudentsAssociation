@@ -7,7 +7,12 @@ import { Highlights } from "@/components/highlights";
 import { Container } from "@/components/ui/container";
 
 export default function HomePage() {
-  const upcoming = [...events].sort((a, b) => +new Date(a.date) - +new Date(b.date))[0];
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // Set to start of day for accurate comparison
+  
+  const upcoming = [...events]
+    .filter(event => new Date(event.date) >= today) // Filter out past events
+    .sort((a, b) => +new Date(a.date) - +new Date(b.date))[0]; // Sort by date and get first
 
   return (
     <main>
