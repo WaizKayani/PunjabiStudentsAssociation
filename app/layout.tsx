@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   keywords: ["Punjabi", "OSU", "Student Organization", "Culture", "Ohio State"],
   icons: {
-    icon: "/images/logo.svg",
-    shortcut: "/favicon.svg",
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
   },
 };
 
