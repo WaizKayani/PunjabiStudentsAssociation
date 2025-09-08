@@ -1,31 +1,35 @@
 "use client";
 import { motion } from "framer-motion";
-import { Drum, Wheat, Sparkles, HeartHandshake } from "lucide-react";
+import { Users, Calendar, Award, Clock } from "lucide-react";
 
-const items = [
-  { icon: Drum, title: "Bhangra & Giddha", text: "High‑energy performances and workshops." },
-  { icon: Wheat, title: "Harvest & Vaisakhi", text: "Celebrate agrarian roots and festivals." },
-  { icon: Sparkles, title: "Phulkari & Jutti", text: "Textiles, crafts, and cultural style." },
-  { icon: HeartHandshake, title: "Unity & Community", text: "Bridge across borders and backgrounds." },
+const stats = [
+  { icon: Users, number: "7", title: "Leadership Members", text: "Dedicated team leading PSA forward." },
+  { icon: Calendar, number: "7+", title: "Events This Semester", text: "Cultural celebrations and workshops." },
+  { icon: Award, number: "2024", title: "Re-established", text: "Building on our rich heritage." },
+  { icon: Clock, number: "200+", title: "Active Members", text: "Growing Punjabi community at OSU." },
 ];
 
 export function Highlights() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      {items.map((item, i) => (
-        <motion.div
-          key={item.title}
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.4, delay: i * 0.05 }}
-          className="rounded-2xl p-5 border bg-white/70 dark:bg-white/10 dark:border-white/10 backdrop-blur shadow-sm hover:shadow-soft transition-shadow"
-        >
-          <item.icon className="h-6 w-6 text-primary" />
-          <h3 className="mt-3 font-semibold">{item.title}</h3>
-          <p className="text-sm text-charcoal/70">{item.text}</p>
-        </motion.div>
-      ))}
+    <div className="text-center">
+      <h2 className="text-2xl font-bold mb-8">Our Growing Community</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {stats.map((stat, i) => (
+          <motion.div
+            key={stat.title}
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.4, delay: i * 0.05 }}
+            className="rounded-2xl p-6 border bg-white/70 dark:bg-white/10 dark:border-white/10 backdrop-blur shadow-sm hover:shadow-soft transition-shadow"
+          >
+            <stat.icon className="h-8 w-8 text-primary mx-auto mb-3" />
+            <div className="text-3xl font-bold text-primary mb-1">{stat.number}</div>
+            <h3 className="font-semibold text-lg mb-2">{stat.title}</h3>
+            <p className="text-sm text-charcoal/70">{stat.text}</p>
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 }

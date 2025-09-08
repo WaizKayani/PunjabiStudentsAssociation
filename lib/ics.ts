@@ -15,7 +15,9 @@ function toICSDate(date: Date) {
 }
 
 export function generateICSForEvent(event: EventItem) {
-  const start = new Date(event.date + (event.time ? " " + event.time : " 18:00"));
+  // Extract start time from time range (e.g., "6:00 PM – 8:00 PM" -> "6:00 PM")
+  const startTime = event.time ? event.time.split(/[–—-]/)[0].trim() : "6:00 PM";
+  const start = new Date(event.date + " " + startTime);
   const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
 
   const ics = [
