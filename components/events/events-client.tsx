@@ -13,21 +13,21 @@ export function EventsClient({ events }: { events: Event[] }) {
   const tags = useMemo(() => Array.from(new Set(events.flatMap(e => e.tags || []))), [events]);
   const filtered = useMemo(() => (tag === "all" ? events : events.filter(e => (e.tags || []).includes(tag))), [tag, events]);
   
-  // Get current date and two weeks from now
+  // Get current date and three weeks from now
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  const twoWeeksFromNow = new Date(today);
-  twoWeeksFromNow.setDate(today.getDate() + 14);
+  const threeWeeksFromNow = new Date(today);
+  threeWeeksFromNow.setDate(today.getDate() + 21);
   
   // Filter events by time periods
   const upcomingSoon = filtered.filter(e => {
     const eventDate = new Date(e.date);
-    return eventDate >= today && eventDate <= twoWeeksFromNow;
+    return eventDate >= today && eventDate <= threeWeeksFromNow;
   }).sort((a, b) => +new Date(a.date) - +new Date(b.date));
   
   const comingSoon = filtered.filter(e => {
     const eventDate = new Date(e.date);
-    return eventDate > twoWeeksFromNow;
+    return eventDate > threeWeeksFromNow;
   }).sort((a, b) => +new Date(a.date) - +new Date(b.date));
   
   const past = filtered.filter(e => new Date(e.date) < today).sort((a, b) => +new Date(b.date) - +new Date(a.date));
